@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+header{
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+
+h1{
+    margin: 40px;
+    size 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    gap: 26px;
+}
+
+.lirodape{
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 12px;
+    size: 12px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.p_padrao{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 12px;
+    size: 12px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif
+}
+
+.loucura{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color:rgb(143, 86, 135);
+}
+
+#liwhite{
+    color: white;
+}
+
+#git{
+    color: black;
+}
+
+#zap{
+    color: darkgreen;
+}
+
+#linkedin{
+    color: blue;
+}
