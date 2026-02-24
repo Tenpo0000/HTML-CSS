@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,20 +8,23 @@
 
 header{
     background-color: gray;
-}
+    position: sticky;
+    width: 100%;
+    top: 0;
+}   
 
 footer{
     background-color: gray;
 }
 
 body{
-    background-color: cornsilk;
+    background-color: rgb(210, 213, 219);
 }
 
 
 h1{
-    margin: 40px;
-    size 20px;
+    margin: 22px;
+    font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
@@ -38,27 +43,34 @@ h1{
     margin-left: 5%;
     padding: 12px;
     size: 12px;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .p_padrao{
     margin-right: 5%;
     margin-left: 5%;
-    padding: 12px;
-    size: 12px;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif
+    margin-bottom: 1%;
+    padding: ;
+    font-size: x-large;
+    font-family: "Delius", cursive;
 }
 
 .loucura{
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    justify-content: center;
     margin-top: 20px;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     background-color:rgb(143, 86, 135);
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #liwhite{
