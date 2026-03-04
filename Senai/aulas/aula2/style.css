@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b2bbb;
+    color: #fff;
+    padding: 20px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(199, 42%, 84%);
+    color: #333;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b2bbb;
+    color: #fff;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 160px;
+}
+
+.menu-esquerda a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-esquerda h1 {
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.menu-direita ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-direita ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.menu-direita ul li a:hover{
+    background-color: #6848da;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-esquerda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoempresa{
+    width: 80px;
+    height: 80px;
+}
+
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient( #172f99,hsl(199, 42%, 84%));
+    margin-bottom: 100px ;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b2bbb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: #6848da;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 100px;
+    border-radius: 20px;
+    
+}
+.card{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
